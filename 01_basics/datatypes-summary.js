@@ -1,3 +1,5 @@
+//  datatypes divided into 2 type on basics of how they store and how can we acces them
+
 //  Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
@@ -33,5 +35,20 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+/*
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
 
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+       */
 // https://262.ecma-international.org/5.1/#sec-11.4.3
